@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
 
 header{
     height: 100px;
@@ -22,6 +26,12 @@ header{
 .logo{
     width: 100px;
 }
+.logoimg{
+    width:80px;
+    height: 80px;
+    background-color: #B28756;
+    border-radius: 50%;
+}
 
 .menu{
     flex:1;
@@ -30,9 +40,35 @@ header{
     justify-content: flex-end;
 }
 
-.logoimg{
-    width:80px;
-    height: 80px;
-    background-color: #B28756
+.menu ul, .menu li{
+    list-style: none;
+    ;
 }
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;;
+    /*display inline não tem como colocar altura tem que alterar pra
+    display:block ou flex*/
+    display:flex;
+    align-items: center;
+    border-bottom: 5px solid #000000;
+    
+}
+
+.menu li a:hover, .menu .active a{
+    border-bottom: 5px solid #B28756;
+    color: #b4b4b2;
+}
+
+
 
