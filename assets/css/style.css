@@ -133,7 +133,29 @@ header{
     text-transform: uppercase;
     font-weight: bold;
 }
-    
+
+.banner .sliders-pointers{
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner .sliders-pointers .pointer{
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    display: inline-block;
+    border: 2px solid #B28756;
+    cursor: pointer;
+}
+.banner .sliders-pointers .pointer.active{
+    background-color: #B28756;
+}
 
 
 
