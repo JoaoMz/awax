@@ -72,7 +72,9 @@ header{
 
 .banner{
     background-color: #333;
-    /* calc - tamanho 100% do monitor do usuario - 100px(cabeçalho*/
+    /* calc - tamanho 100% do monitor do usuario - 100px(cabeçalho
+        vh - viewport height - altura do monitor do usuario
+    */
     height: calc(100vh - 100px);
     background-image:url('../images/bg.jpg');
     /*background-size ajusta imagem para cobrir toda a tela disponivel*/
@@ -85,15 +87,54 @@ header{
 
 .banner .sliders{
     height: 100%;
-    width: 1000vh;
+    /*  vw - viewport width - largura do monitor do usuario*/
+    width: 1000vw;
 }
 
 .banner .slide{
-    width: 100vh;
+    width: 100vw;
     height: 100%;
     display: inline-block;
     background-color: rgba(0,0,0,0.8);
 }
+
+.banner .slidearea{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100%;
+    color: #fff;
+    justify-content: center;   
+}
+
+.banner h1{
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size:50px;
+}
+.banner h1 span{
+    color: #B28756;
+}
+
+.banner h2{
+    text-transform:uppercase;
+    margin-top: 20px;
+}
+
+.banner .button{
+    display: block;
+    background-color:#B28756;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+    
+
 
 
 
