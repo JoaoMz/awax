@@ -217,6 +217,8 @@ header{
 
 
 .section-aboutus{
+
+
     display: flex;
 }
 .section-aboutus--left{
@@ -235,4 +237,30 @@ header{
     width: 480px;
     box-shadow: 0px 5px 10px #333;
     object-fit:fill;
+}
+
+
+.section-services{
+    display:flex;
+}
+.section-service{
+    flex:1;
+    text-align: center;
+    border-right: #999 solid 1px;
+    padding: 15px;
+}
+
+.section-service:first-child{
+    border-left: #999 solid 1px;
+}
+.section-service h4{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size:18px;
+}
+
+.section-service p{
+    font-size:13px;
+    color: #999;
+    margin-top: 10px;
 }
