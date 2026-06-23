@@ -70,6 +70,20 @@ header{
     color: #b4b4b2;
 }
 
+.button{
+    display: inline-block;
+    background-color:#B28756;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
 .banner{
     background-color: #333;
     /* calc - tamanho 100% do monitor do usuario - 100px(cabeçalho
@@ -121,18 +135,6 @@ header{
     margin-top: 20px;
 }
 
-.banner .button{
-    display: block;
-    background-color:#B28756;
-    color: #fff;
-    text-decoration: none;
-    font-size: 12px;
-    border-radius: 50px;
-    margin-top: 30px;
-    padding: 10px 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
 
 .banner .sliders-pointers{
     width: 100vw;
@@ -181,25 +183,56 @@ header{
 .default .section-body{
     margin: auto;
     max-width: 1140px;
-    min-height: 300px;
-    background-color: #b4b4b2;
 }
     
 .default.light{
     background-color: #f7f7f7;
 
 }
-.default.light .section-title{
+.default.light .section-title,
+.default.light .section-body{
     color: #000;
 }
+
 
 .default.dark{
     background-color: #000;
 }
 
-.default.dark .section-title{
+.default.dark .section-title,
+.default.dark .section-body{
     color: #fff;
 }
 
 
 
+
+
+
+
+
+
+
+/* CSS DE AREAS ESPECIFICAS */
+
+
+.section-aboutus{
+    display: flex;
+}
+.section-aboutus--left{
+    flex:1;
+}
+.section-aboutus--left p{
+    line-height: 20px;
+    font-size:14px;
+}
+.section-aboutus--right{
+    width: 520px;
+    text-align: center;
+}
+
+.section-aboutus--right img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+    object-fit:fill;
+}
