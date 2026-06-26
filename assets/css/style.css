@@ -158,6 +158,9 @@ header{
 .banner .sliders-pointers .pointer.active{
     background-color: #B28756;
 }
+.banner .sliders-pointers .pointer:hover{
+    background-color: #B28756;
+}
 
 .default{
     padding-top: 50px;
@@ -399,6 +402,10 @@ header{
     border: 2px solid #B28756;
     cursor: pointer;
 }
+.section-team-area .sliders-pointers .pointer:hover{
+    background-color: #B28756;
+}
+
 .section-team-area .sliders-pointers .pointer.active{
     background-color: #B28756;
 }
@@ -584,5 +591,76 @@ header{
 }
 
 .bg-price{
+    border-bottom: 1px solid #CCC;
+}
+
+.section-premium{
+    display: flex;
+    align-items: center;
+}
+.section-premium--left{
+    flex:1;
+    text-align: right;
+    margin-bottom:50px;
+}
+.section-premium--left img{
+    width: 300px;
+}
+
+.section-premium--right{
+    flex:1;
+    
+}
+
+.section-premium--item{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.section-premium--item img{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.section-premium--item .section-premium--name{
+    font-size: 16px;
+    font-weight:600;
+    text-transform:uppercase;  
+
+}
+.section-premium--desc p{
+    color: #999;
+}
+
+.default.light.bg-premium{
+    background-color: #fff;
+    padding: 50px 0px;
+}
+
+.section-body .sliders-pointers{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+.section-body .sliders-pointers .pointer{
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    border: 2px solid #B28756;
+    cursor: pointer;
+    margin: top 40px;
+}
+.section-body .pointer.active{
+    background-color: #B28756;
+}
+
+.section-body .sliders-pointers .pointer:hover{
+    background-color: #B28756;
+}
+.section-premium.bdr-premium{
     border-bottom: 1px solid #CCC;
 }
