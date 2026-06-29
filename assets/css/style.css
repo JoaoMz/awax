@@ -189,7 +189,7 @@ header{
 }
     
 .default.light{
-    background-color: #e8e6e6;
+   background-color:#F7F7F7
 
 }
 .default.light .section-title,
@@ -664,3 +664,125 @@ header{
 .section-premium.bdr-premium{
     border-bottom: 1px solid #CCC;
 }
+
+.section-facts{
+    display:flex;
+}
+.section-fact{
+    flex:1;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-fact h4{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size:18px;
+}
+
+.section-fact h3{
+    color: #B28756;
+    font-size: 45px;
+}
+
+.section-fact p{
+    font-size:13px;
+    color: #999;
+    margin-top: 10px;
+    
+}
+
+.section-fact .section-fact-line{
+    width: 20px;
+    height: 2px;
+    background-color: #B28756;
+    margin:auto;
+}
+
+.section-share{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-share--tell{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 13px;
+    margin-right:40px;
+}
+
+.section-share--tell img{
+    margin-right: 10px;
+}
+
+.section-share--item{
+    height: 30px;
+    width: 30px;;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+   
+}
+.section-share--item img{
+    height:12px;
+    
+}
+.section-share--icons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 13px;
+    margin-right:20px;
+}
+.facebook{
+    background-color:rgb(5, 71, 151);
+}
+.twitter{
+    background-color:rgb(90, 208, 255);
+}
+.linkedin{
+    background-color:rgb(0, 87, 193);
+}
+.google{
+    background-color:rgb(202, 67, 14);
+}
+.pinterest{
+    background-color:rgb(202, 67, 14);
+}
+
+
+
+.section-contact {
+    max-width:450px;
+    margin:auto;
+    text-align:center;
+}
+.section-contact input[type=text],
+.section-contact textarea {
+    display:block;
+    width:100%;
+    height:40px;
+    border:0;
+    background:transparent;
+    border-bottom:1px solid #CCC;
+    outline:0;
+    margin-top:10px;
+}
+.section-contact textarea {
+    height:100px;
+    resize:none;
+}
+.section-contact--split {
+    display:flex;
+}
+.section-contact--split input:first-child {
+    margin-right:20px;
+}
+
